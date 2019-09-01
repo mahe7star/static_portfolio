@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title> Anonymous</title>
+    <link rel="icon" type="image/png" href="css/images/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js-1.4.2/parallax.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script async defer                                                                                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZEFmqCfa4RWwDwXEpVhwX2bZLtbDGPo0&callback=initMap"></script>
+</head>
+<body data-hijacking="off" data-animation="none">
+   <div id="first" data-parallax="scroll" data-image-src="css/images/cov.jpg">
+     <div id="header">
+          <a href="#home" id="logo"><i class="fa fa-meanpath" aria-hidden="true"></i></a></li>
+          <div id="mySidenav" class="sidenav">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+             <a href="#about">About</a>
+             <a href="#gallery">Gallery</a>
+             <a href="#clients">Clients</a>
+             <a href="#contact">Contact</a>
+          </div>
+          <span id="menu-icon" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
+     </div>
+<!---end of header div-->
+     <div id="intro">
+       <p id="name">Hello, It's me being creative.</p>
+       <hr>
+       <p id="qoute"><i class="fa fa-quote-left" aria-hidden="true"></i>
+          Design creates culture.
+          Culture shapes values.<br>
+          Values determine the future. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+     </div>
+   </div>
+       <div id="social">
+            <a class="social" href="https://www.facebook.com/Mahe7star"><img src="css/images/fb.svg"></a>
+            <a class="social" href="https://www.instagram.com/mahi7star/"><img src="css/images/insta.svg"></a>
+            <a class="social" href="https://www.linkedin.com/in/maheshpratap1995/"><img id="link" src="css/images/linkedin.svg"></a>
+        </div>
+<!--end of first div-->
+
+   <div id="about">
+      <div id="dp"><img src="css/images/about.jpg"></div>
+      <div id="about-para" >
+        <h2 id="abt">ABOUT</h2>
+        <p class="para">
+          My name is Anonymous. I'm a Front-End Web and e-Learning Developer at Anywhere, having previously worked for Anyone in the e-Learning department.
+
+          I graduated from Amity University with First Class Honours in Interactive Media back in 2018.</p>
+        <p>
+          I specialize in designing and developing high quality, interactive websites and e-Learning content for both commercial and educational sectors.
+
+          My work has been featured in numerous CSS Galleries across the web including CSS Mania and CSS Winner. More recently my designs have been published in 'The Web Designer's Idea Book, Volume 3' by Thomas Brown.
+
+          I’m always open to exciting job opportunities.
+        </p>
+        <center><a href="cv.docx" id="cv"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Download CV</a></center>
+      </div>
+   </div>
+
+<!---end of about div-->
+
+   <div id="gallery" data-parallax="scroll" data-image-src="css/images/portfolio.jpg">
+      <h2 id="galle">GALLERY</h2>
+      <div class="gallery">
+         <div>
+           <img src="css/images/gall.jpg" />
+         </div>
+         <div>
+            <img src="css/images/gall1.jpg" />
+         </div>
+         <div>
+            <img src="css/images/gall2.jpg" />
+         </div>
+         <div>
+            <img src="css/images/gallery3.jpg" />
+         </div>
+         <div>
+            <img src="css/images/gall4.jpg" />
+         </div>
+         <div>
+            <img src="css/images/gall5.jpg" />
+         </div>
+      </div>
+		</div>
+
+<!---end of gallery-->
+
+    <div id="clients">
+       <h2>CLIENTS</h2>
+       <div id="clients-logo">
+         <div><i class="fa fa-rebel" aria-hidden="true"></i><br>Rebel</div>
+         <div><i class="fa fa-skyatlas" aria-hidden="true"></i><br>Skyatlas</div>
+         <div><i class="fa fa-tencent-weibo" aria-hidden="true"></i><br>Tencent</div>
+         <div><i class="fa fa-modx" aria-hidden="true"></i><br>Modx</div>
+       </div>
+    </div>   
+
+<!---end of clients div-->
+
+    <div id="contact" data-parallax="scroll" data-image-src="css/images/contactBack.jpg">
+      <h2>CONTACT</h2>
+      <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7328705380996!2d77.06223561425982!3d28.60778958242759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b2cdb275f67%3A0x67a052885a288150!2sYour+Cool+Advisor!5e0!3m2!1sen!2sin!4v1498834431625" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <div id="form">
+        <form>
+          Name<br>
+          <input class="input" type="text" name="name"><br>
+          E-mail<br>
+          <input class="input" type="text" name="name"><br>
+          Message<br>
+          <textarea rows="15" cols="40"></textarea><br>
+          <button>Send</button>
+          
+        </form>
+      </div> 
+       
+    </div>
+
+
+
+<footer>
+  
+
+</footer>
+</body>
+</html>
